@@ -1,8 +1,6 @@
-﻿using System.Diagnostics;
+﻿namespace com.hafthor.SpanExtensions;
 
-namespace com.hafthor.SpanExtensions;
-
-public static class SpanExtensions {
+public static partial class SpanExtensions {
     /// <summary>
     /// Partitions a span. Useful if you want the smallest/largest k elements of a list without sorting the whole list.
     /// This is a generalization of the partition step of quickselect.
